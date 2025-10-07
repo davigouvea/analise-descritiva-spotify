@@ -9,14 +9,14 @@
 
 ## 1. Descrição do Projeto
 
-Este projeto foi desenvolvido para a Atividade Avaliativa A1 e consiste em um sistema em Python que realiza uma análise descritiva de dados. [cite_start]O sistema utiliza a biblioteca `pandas` para leitura e manipulação de um dataset do Kaggle e `matplotlib`/`seaborn` para a visualização gráfica dos dados
+Este projeto foi desenvolvido para a Atividade Avaliativa A1 e consiste em um sistema em Python que realiza uma análise descritiva de dados. O sistema utiliza a biblioteca `pandas` para leitura e manipulação de um dataset do Kaggle e `matplotlib`/`seaborn` para a visualização gráfica dos dados
 
 ## 2. Dataset Escolhido
 
-O dataset utilizado foi o **"Top Spotify Songs from 2010-2019"**, obtido no Kaggle. [cite_start]Ele contém informações sobre as músicas mais populares da década, incluindo características como gênero, artista, batidas por minuto (BPM), energia, e popularidade.
+O dataset utilizado foi o **"Top Spotify Songs from 2010-2019"**, obtido no Kaggle. Ele contém informações sobre as músicas mais populares da década, incluindo características como gênero, artista, batidas por minuto (BPM), energia, e popularidade.
 
 - **Formato:** `.csv`
-- **Link:** [https://www.kaggle.com/datasets/leonardopena/top50spotify2010-2019](https://www.kaggle.com/datasets/leonardopena/top50spotify2010-2019)
+- **Link:** (https://www.kaggle.com/datasets/leonardopena/top50spotify2010-2019)
 
 ## 3. Como Executar o Projeto
 
@@ -51,13 +51,13 @@ O script irá imprimir o relatório de análise no console e salvará um gráfic
 
 O script executa as seguintes etapas:
 
-1.  [cite_start]**Leitura dos Dados:** Carrega o arquivo `top10s.csv` usando pandas[cite: 15].
+1.  **Leitura dos Dados:** Carrega o arquivo `top10s.csv` usando pandas.
 2.  **Tratamento e Limpeza:**
-    -   [cite_start]Padroniza os nomes das colunas (para minúsculas e sem espaços).
-    -   [cite_start]Verifica a existência de valores nulos (neste dataset, não foram encontrados).
-    -   [cite_start]Confirma se os tipos de dados de cada coluna estão adequados para a análise.
+    -   Padroniza os nomes das colunas (para minúsculas e sem espaços).
+    -   Verifica a existência de valores nulos (neste dataset, não foram encontrados).
+    -   Confirma se os tipos de dados de cada coluna estão adequados para a análise.
 3.  **Análise Exploratória:**
-    -   [cite_start]Calcula as estatísticas descritivas (média, mediana, desvio padrão, etc.) para as colunas numéricas[cite: 22].
+    -   Calcula as estatísticas descritivas (média, mediana, desvio padrão, etc.) para as colunas numéricas.
     -   Identifica os artistas e gêneros mais frequentes.
 4.  **Visualização:**
-    -   [cite_start]Gera um gráfico de barras com os 10 artistas que mais apareceram na lista de sucessos, salvando-o como uma imagem PNG[cite: 24].
+    -   Gera um gráfico de barras com os 10 artistas que mais apareceram na lista de sucessos, salvando-o como uma imagem PNG.
