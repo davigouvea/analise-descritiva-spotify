@@ -3,7 +3,7 @@
 **Universidade Positivo**
 **Curso:** Tópicos Especiais em Software
 **Professor:** Tiago Batista Pedra
-**Integrantes:** [Seu Nome Completo] e [Nome Completo da Dupla]
+**Integrantes:** Davi Gouvea Santos
 
 ---
 
