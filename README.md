@@ -9,7 +9,7 @@
 
 ## 1. Descrição do Projeto
 
-Este projeto foi desenvolvido para a Atividade Avaliativa A1 e consiste em um sistema em Python que realiza uma análise descritiva de dados. [cite_start]O sistema utiliza a biblioteca `pandas` para leitura e manipulação de um dataset do Kaggle e `matplotlib`/`seaborn` para a visualização gráfica dos dados[cite: 11, 24].
+Este projeto foi desenvolvido para a Atividade Avaliativa A1 e consiste em um sistema em Python que realiza uma análise descritiva de dados. [cite_start]O sistema utiliza a biblioteca `pandas` para leitura e manipulação de um dataset do Kaggle e `matplotlib`/`seaborn` para a visualização gráfica dos dados
 
 ## 2. Dataset Escolhido
 
