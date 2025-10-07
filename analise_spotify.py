@@ -11,7 +11,7 @@ def analisar_dados_spotify():
     
     # --- 1. Leitura do Dataset ---
     try:
-        # Usando a codificação 'latin1' que funcionou para ler seu arquivo
+        # Usando a codificação 'latin1' serve para ler o arquivo
         df = pd.read_csv('top10s.csv', encoding='latin1')
         print(">>> 1. Leitura de dados concluída com sucesso!")
         print("   - Colunas originais encontradas:", df.columns.tolist())
@@ -27,7 +27,7 @@ def analisar_dados_spotify():
     # --- 2. Tratamento e Padronização (A CORREÇÃO FINAL) ---
     print(">>> 2. Iniciando tratamento e padronização dos dados...")
     
-    # Dicionário para renomear as colunas EXATAS do seu arquivo para nomes limpos
+    # Dicionário para renomear as colunas EXATAS do arquivo para nomes limpos
     rename_dict = {
         'Track.Name': 'track_name',
         'Artist.Name': 'artist',
@@ -64,7 +64,7 @@ def analisar_dados_spotify():
     # --- 3. Exploração Inicial (Estatísticas Descritivas) ---
     print(">>> 3. Gerando estatísticas descritivas...")
     
-    # Agora podemos usar nossa lista de nomes limpos com segurança
+    # Agora podemos usar a lista de nomes limpos com segurança
     colunas_descritivas = [
         'bpm', 'energy', 'danceability', 'loudness_db', 'liveness',
         'valence', 'duration', 'acousticness', 'speechiness', 'popularity'
